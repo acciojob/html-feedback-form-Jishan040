@@ -4,28 +4,30 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	Feedback Form
+ <form method="post">
+ <label for="name">Your name</label>
+ <input type="text" id="name" minlength="3" maxlength="50" required>
+ <br>
+ <label for="portfolio">You portfolio</label>
+ <input type="url" id="portfolio" required>
+ <br>
+ <label for="favColor">Your fav color</label>
+ <input type="color" id="favColor" >
+ <br>
+ <label for="likeness">From one to hundred choose
+likeness</label>
+ <input type="range" id="likeness" min="1" max="100">
+ <br>
+ <button type="submit" >Submit</button>
+ <br>
+ <button type="reset">Reset form</button>
+ </form>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-   
-	<form>
-        <h1>Feedback Form</h1>
-		 <label for="name">Name</label>
-        <input type="text" maxlength="50" minlength="3" id="name" required><br>
-        <label for="portfolio">Website link</label> 
-        <input type="url" id="portfolio" required><br>
-        <label for="favColor">Choose a color:</label>
-        <select id="favColor" name="favColor" size="3">
-            <option value="blue">Blue</option>
-            <option value="black">Black</option>
-            <option value="red">Red</option>
-            <option value="green">Green</option>
-        </select><br>
-        <label for="likeness">How much do you like the color?</label>
-        1<input type="range" min="1" max="100" value="50" class="slider" id="linkeness">100
-		  <button type="submit">Submit</button
-    </form> <script type="text/javascript" src="./script.js">
+    <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
